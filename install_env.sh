@@ -1,3 +1,4 @@
+#pwd: /CodeGen
 conda create --name codeGen_env python=3.6.9
 # if `conda activate env` not working and shows the below error
 # ``` CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'. ```
@@ -39,3 +40,8 @@ cd ..
 pip install sacrebleu=="1.2.11" javalang tree_sitter psutil fastBPE
 pip install hydra-core --upgrade --pre
 pip install black==19.10b0
+
+# --------------------------------
+#pwd: /CodeGen
+cd tree-sitter
+git clone https://github.com/tree-sitter/tree-sitter-javascript
