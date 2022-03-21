@@ -1,3 +1,24 @@
+# Dependency
+FastBPE was instructed to be installed by the TransCoder repo (https://github.com/facebookresearch/TransCoder/tree/main/XLM/tools#fastbpe)
+
+However, it is impossible to build the python API on KCL lab machiens (don't have sudo permission access to update python packages).
+
+So installed via pip (from this website https://package.wiki/fastBPE), succeed
+```bash
+pip3 install fastBPE==0.1.0
+```
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
 This repository is a toolkit to do machine learning for programming languages. It implements tokenization, dataset preprocessing, model training and model evaluation.
 
 We provide reference implementations of the following papers:
